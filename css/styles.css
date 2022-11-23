@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+html{
+  font-family: 'Merriweather', serif;
+}
+
+header, main, footer{
+  float: left;
+  width: 100%;
+}
+
+header{
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: rgb(17, 17, 17);
+}
+
+header ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+header li {
+  float: left;
+  margin-right: 10px;
+  padding: 0 4px;
+}
+
+header nav {
+  position: relative;
+  float: right;
+  line-height: 94px;
+}
+
+nav a{
+  color: white;
+  margin-left: 8px;
+}
+
+nav a:last-of-type{
+  margin-right: 15px;
+}
+
+#unodostres{
+  position: relative;
+  float: right;
+  line-height: 94px;
+}
+
+.colordefondo{
+  color: #fff;
+}
+  
+.logo-empresa {
+  position: relative;
+  float: left;
+  border-radius: 60px;
+}
+
+#logo-empresa {
+  
+  width: 120px;
+  height: 90px;
+  background-repeat: no-repeat;
+  
+    
+}
+
+main{
+  height: 600px;
+}
+
+.main-barberia{
+  height: auto !important;
+}
+
+.image-background{
+  background-image: url('../img/thelabel-nota-barberias.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcome-message{
+  position: relative;
+  color: rgb(194, 162, 162);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+  /* border: 1px solid white; */
+  float: right;
+  font-size: 50px;
+  
+}
+
+footer{
+  height: 100px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
+
+footer #social-nets{
+  position: relative;
+  margin-left: 10px;
+  float: left;
+}
+
+footer #copyright {
+  position: relative;
+  float: right;
+  line-height: 50px;
+  margin-right: 10px;
+}
+
+footer #social-nets #social-nets-text{
+  position: relative;
+  float: left;
+  line-height: 50px;
+}
+
+footer #social-nets #social-nets-icons{
+  position: relative;
+  float: left;
+  line-height: 60px;
+  height: 50px;
+  overflow: hidden;
+}
+
+i{
+  font-size: 30px;
+  margin-left: 10px;
+  color: white;
+  font-family: 'Font Awesome 6 Brands' !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.card{
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.contact-form{
+  background-image: url('../img/imagen3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 400px;
+  padding-top: 130px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.image-item{
+  background-image: url('../img/imagen4.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 250px;
+  width: 400px;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.video-item{
+  height: 250px;
+  width: 300px;
+  margin-top: 60px;
+  margin-right: 80px;
+  float: right;
+}
+
+.video-item video{
+  height: 300px;
+  width: 300px;
+}
+
+.image-item img{
+  width: 250px;
+  height: 180px;
+  margin: 30px 0 0 50px;
+  border-radius: 15px;
+}
+
+.main-flex{
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.main-flex div.photo{
+  margin: 30px;
+}
+
+.styled-text{
+  font-size: 24px;
+  color: white;
+}
+
+.special-background{
+  background-color: rgb(17, 17, 17);
+}
+
+.reduced-main{
+  height: 400px;
+}
+
+.gallery-reduced-main{
+  height: 630px;
+}
+
+.services-reduced-main{
+  height: 530px;
+}
+
+.nosotros-reduced-main{
+  height: 400px;
+  background-image: url('../img/imagen32.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services-image-item{
+  background-image: url('../img/imagen3.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+  margin-top: 50px;
+  padding-top: 130px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.btn-enviar{
+  background: none;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 10px;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  height: 50px;
+}
+#carouselExampleCaptions img{
+  height: 600px !important;
+}
+
+.with-position-right{
+  position: absolute !important;
+  right: 20px !important;
+  width: 200px !important;
+  display: inline !important;
+  left: unset !important;
+  top: 200px !important;
+}
+
+.carousel-item{
+  /* position: relative !important; */;
+  font-size:100px !important;
+
+}
+
+.carousel-caption h5{
+  font-size: 35px !important;
+}
+
+.dead{
+  visibility: hidden !important;
+}
+
+.card-backgrounded{
+  background-image: url('../img/imagen3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 430px !important;
+  padding: 30px;
+}
+
+.with-margin-top{
+  margin-top: 100px;
+
+}
+
+.form-control{
+  width: 50% !important;
+  margin: 0 auto;
+}
+
+/* @media (max-width: 1000px) {
+  main{
+    color: green !important;
+  }
+} */
+
+.irish-barber{
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .card:last-of-type {
+    margin-top: 50px;
+  }
+  .with-margin-top{
+    margin-top: 160px;
+  }
+  main{
+    color: black !important;
+    height: unset !important;
+  }
+  #carouselExampleCaptions img{
+    height: unset !important;
+  }
+  nav a{
+    display: block;
+  }
+  header nav {
+    float: left;
+    line-height: 30px;
+    clear: both;
+  }
+
+}
+
+
