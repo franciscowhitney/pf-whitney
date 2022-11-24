@@ -8,6 +8,7 @@
 
 html{
   font-family: 'Merriweather', serif;
+  background: rgb(17, 17, 17);
 }
 
 header, main, footer{
@@ -39,8 +40,14 @@ header nav {
 }
 
 nav a{
-  color: white;
+  color: white !important;
   margin-left: 8px;
+}
+
+nav a:hover{
+  font-size: 18px;
+  transition: all 0.5s ease;
+  line-height: 90px;
 }
 
 nav a:last-of-type{
@@ -78,6 +85,12 @@ main{
 
 .main-barberia{
   height: auto !important;
+  padding-bottom: 50px;
+}
+
+.main-tienda{
+  height: auto !important;
+  padding-bottom: 50px;
 }
 
 .image-background{
@@ -163,6 +176,13 @@ a{
   background-image: url('../img/imagen4.jpg');
   background-repeat: no-repeat;
   background-size: contain;
+  height: 250px;
+  width: 400px;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.image-item-tienda{
   height: 250px;
   width: 400px;
   margin: 15px;
@@ -284,7 +304,7 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 430px !important;
-  padding: 30px;
+
 }
 
 .with-margin-top{
@@ -307,6 +327,31 @@ a{
   font-size: 50px;
 }
 
+.main-barberia input::placeholder{
+  color: black;
+}
+
+.special-shadow{
+  box-shadow: 0 0 10px 5px white;
+}
+
+.special-shadow-grey{
+  box-shadow: 0 0 10px 1px #E6E7EC;
+}
+
+.personal-message{
+  background: #553c34 !important;
+  height: 100%;
+  color: white;
+}
+
+.main-tienda img:hover{
+  height: 105%;
+  width: 105%;
+  
+}
+
+
 @media (max-width: 768px) {
   .card:last-of-type {
     margin-top: 50px;
@@ -328,6 +373,9 @@ a{
     float: left;
     line-height: 30px;
     clear: both;
+  }
+  nav a:hover{
+    line-height: unset;
   }
 
 }
