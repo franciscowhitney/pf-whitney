@@ -5,20 +5,23 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TheIrishbarber</title>
+  <title>The Irish Barber - Contacto</title>
   <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  <title>SERVICIOS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="shortcut icon" href="../img/logobarber.jpg" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+  <meta name="description"
+    content="Contacto. Direccion Quintana 363, CABA. Telefono 5551333. Correo franbarbermaster@gmail.com" />
+  <meta name="keywords" content="QUINTANA, CABA, RECOLETA, AVENIDA, TELEFONO, 5551333, FRANBARBERMASTER, GMAIL" />
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <img src="../img/logobarber.jpg">
+        <img src="../img/logobarber.jpg" alt="logo barberia">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,28 +38,58 @@
       </div>
     </nav>
   </header>
-  <main class="special-background main-flex services-reduced-main">
-    <div class="services-image-item">
-      <h4>SERVICIOS </h4>
-      <select name="Servicios">
-        <div class="form-reserva">
-          <option value="1">Corte y Barba Clasico</option>
-          <option value="2">Corte y Barba especial</option>
-          <option value="3">Corte</option>
+  <main>
+    <div class="container with-vertical-margins">
+      <h1>CONTACTO</h1>
+      <div class="row">
+        <div class="col-md">
+          <div class="store-data">
+            <i class="bi bi-geo-alt-fill"></i>
+            <br />
+            Quintana 363, CABA
+          </div>
         </div>
-      </select>
-    </div>
-
-    <div class="services-image-item">
-      <br>
-      <label for="barbero1"> Barbero1</label>
-      <input type="radio" name="profesionales" id="Barbero1" value="Barbero1">
-      <br>
-      <label for="barbero2"> Barbero2</label>
-      <input type="radio" name="profesionales" id="Barbero2" value="Barbero2">
-      <br><br>
-      <br><br>
-      <input class="btn-enviar" type="submit" value="ENVIAR">
+        <div class="col-md">
+          <div class="store-data">
+            <i class="bi bi-telephone-fill"></i>
+            <br />
+            5551333
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="store-data">
+            <i class="bi bi-envelope"></i>
+            <br />
+            franbarbermaster@gmail.com
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <div class="store-data">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.583527263241!2d-58.39070958570493!3d-34.58940318046317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb457b6fd519%3A0xe77049b48b2af230!2sThe%20Irish%20Barber!5e0!3m2!1ses!2sar!4v1670512389741!5m2!1ses!2sar"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="store-data">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre...">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput2" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="nombre@ejemplo.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-light">Enviar</button>
+          </div>
+        </div>
+      </div>
     </div>
 
   </main>
@@ -77,8 +110,8 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-  crossorigin="anonymous"></script>
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 
